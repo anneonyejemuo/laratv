@@ -146,7 +146,12 @@ class VideoModel extends CI_Model
             }
             $query = $this->db->query($sql, array($data['id_category'], $data['id']));
              // Set first video
-            if($data['type'] === '1'){
+            if ($data['type'] === '0') {
+                $videoPlaylist['type'][] = 'embedded';
+                $videoPlaylist['src'][] = '';
+                $videoPlaylist['youtube'][] = $data['embed'];
+                $videoPlaylist['vimeo'][] = '';
+            } elseif($data['type'] === '1'){
                 $videoPlaylist['type'][] = 'HTML5';
                 $videoPlaylist['src'][] = $data['file'];
                 $videoPlaylist['youtube'][] = '';
@@ -176,8 +181,8 @@ class VideoModel extends CI_Model
         }
         foreach ($query->result() as $row) {
             if ($row->type === '0') {
-                $videoPlaylist['type'][] = '';
-                $videoPlaylist['src'][] = '';
+                $videoPlaylist['type'][] = 'embedded';
+                $videoPlaylist['src'][] = $data['embed'];
                 $videoPlaylist['youtube'][] = '';
                 $videoPlaylist['vimeo'][] = '';
             } elseif($row->type === '1'){
