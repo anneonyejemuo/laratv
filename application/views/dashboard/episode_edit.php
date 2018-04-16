@@ -85,7 +85,7 @@
     							<label class="control-label"><?php echo $this->lang->line('videoCover'); ?></label> <p><small class="text-muted">(.gif, .jpg, .png)</small></p>
     							<input type="file" name="userImage" class="filestyle" data-buttontext="Select file" data-buttonname="btn-inverse" data-placeholder="<?php if(isset($image)) echo $image; ?>">
     							<input type="hidden" name="hiddenImage">
-    						</div>
+                            </div>
     						<div class="form-group text-right m-b-0">
     							<button class="btn btn-inverse waves-effect waves-light" type="submit"><?php echo $this->lang->line('submit'); ?></button>
     						</div>
