@@ -60,22 +60,6 @@
     <div class="container">
         <div class="row home-content">
             <div class="col-sm-12">
-                <h2 class="container-mobile"><?php echo $this->lang->line('mostPopularVideos') ?></h2>
-                <div class="owl-carousel owl-theme owl-multi">
-                    <?php if(isset($getPopularVideos)) echo $getPopularVideos; ?>
-                </div>
-                <h2 class="container-mobile"><?php echo $this->lang->line('recentVideos') ?></h2>
-                <div class="owl-carousel owl-theme owl-multi">
-                    <?php if(isset($getNewsVideos)) echo $getNewsVideos; ?>
-                </div>
-                <h2 class="container-mobile"><?php echo $this->lang->line('favoriteVideos') ?></h2>
-                <div class="owl-carousel owl-theme owl-multi">
-                    <?php if(isset($getRatedVideos)) echo $getRatedVideos; ?>
-                </div>
-                <h2 class="container-mobile"><?php echo $this->lang->line('ratedVideos') ?></h2>
-                <div class="owl-carousel owl-theme owl-multi">
-                    <?php if(isset($getTitleVideo)) echo $getTitleVideo; ?>
-                </div>
                 <?php if ($this->config->item('homeCategory1') !== 'false') { ?>
                     <h2 class="container-mobile"><?php if(isset($getCategories1Title->title)) echo $getCategories1Title->title; ?></h2>
                     <div class="owl-carousel owl-theme owl-multi">

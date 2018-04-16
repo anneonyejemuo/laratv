@@ -167,12 +167,6 @@
 					</ul>
 					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
-				<div class="help-box hidden-sm hidden-md hidden-xs">
-                    <h5 class="text-muted m-t-0"><?php echo $this->lang->line('forHelp'); ?></h5>
-                    <p class=""><span class="text-custom"><?php echo $this->lang->line('forum'); ?>:</span> <br/> <a class="link-muted" href="http://www.coffeetheme.com/forums/" target="_blank">www.coffeetheme.com</a></p>
-                    <p class=""><span class="text-custom"><?php echo $this->lang->line('email'); ?>:</span> <br/> support@coffeetheme.com</p>
-                </div>
 			</div>
 		</div> <!-- Left Sidebar End -->
 
