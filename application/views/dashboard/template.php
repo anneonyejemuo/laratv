@@ -187,7 +187,7 @@
 				</div> <!-- container -->
 			</div> <!-- content -->
 			<footer class="footer">
-				Coffee Theme © <?php echo date('Y'); ?>. <?php echo $this->lang->line('signature'); ?>
+				LINDA IKEJI TV © <?php echo date('Y'); ?>. <?php echo $this->lang->line('signature'); ?>
 				<span class="pull-right"><?php echo $this->lang->line('version'); ?> 1.4.0</span>
 			</footer>
 		</div> <!-- end content-page -->

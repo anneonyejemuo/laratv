@@ -1,8 +1,8 @@
 <?php
 defined("BASEPATH") OR exit("No direct script access allowed");
-$config["author"] = 'Coffee Theme';
-$config["keywords"] = 'VideoTube, Script PHP';
-$config["description"] = 'The best video subscription platform';
+$config["author"] = 'lindaikejitv.com';
+$config["keywords"] = 'LITV';
+$config["description"] = 'Wecome to LITV';
 $config["home_pag"] = "9";
 $config["cat_pag"] = "15";
 $config["key_pag"] = "15";

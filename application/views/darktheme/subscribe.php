@@ -1,26 +1,6 @@
 <section class="row">
     <div class="col-sm-12">
         <div style="background-image:url('<?php echo site_url('/assets/images/landing-subscribe.jpg'); ?>')">
-            <!-- Demo Bar -->
-            <?php if($this->config->item('demo') && !$this->session->demo_panel) { ?>
-                <div id="demo-panel">
-                    <ul>
-                        <li class="theme-select">
-                            <a href="#">Select a theme<i class="fa fa-angle-down"></i></a>
-                            <ul>
-                                <li><a href="<?php echo site_url('Linkswitch/switchTheme/default/'); ?>">Default <span style="background:#82b340">Include</span></a></li>
-                                <li><a href="<?php echo site_url('Linkswitch/switchTheme/darktheme/'); ?>">Dark Theme <span style="background:#DE1212">Include</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="links-panel">
-                        <li><a href="https://codecanyon.net/item/videoplay-video-subscription-platform/20656861?ref=coffeetheme">Buy now</a></li>
-                        <li><a href="<?php echo site_url('Linkswitch/switchPanel/'); ?>"><i class="fa fa-times"></i> Remove Frame</a></li>
-                        <li><a href="https://codecanyon.net/item/videoplay-video-subscription-platform/20656861?ref=coffeetheme"><i class="fa fa-shopping-cart"></i></a></li>
-                        <li><a href="<?php echo site_url('Linkswitch/switchPanel/'); ?>"><i class="fa fa-times"></i></a></li>
-                    </ul>
-                </div>
-            <?php } ?>
             <div class="topbar <?php echo ($this->config->item('demo') && !$this->session->demo_panel) ? 'with-demo-panel' : ''; ?>">
                 <div class="navbar navbar-default navbar-hide bg-transparent" role="navigation">
                     <div class="landing-container">
@@ -242,7 +222,7 @@
                 <?php if($this->config->item('socialIconsFooter')) { ?>
                     <ul class="social-icons pull-right">
                         <?php if($this->config->item('demo')) { ?>
-                        <li><a href="http://www.coffeetheme.com"><i class="fa fa-coffee"></i></a></li>
+                        <li><a href="http://www.lindaikejitv.com"><i class="fa fa-coffee"></i></a></li>
                         <?php } ?>
                         <?php if($this->config->item('facebook')) { ?>
                         <li><a href="<?php echo $this->config->item('facebook'); ?>"><i class="fa fa-facebook"></i></a></li>

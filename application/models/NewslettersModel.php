@@ -13,7 +13,7 @@ class NewslettersModel extends CI_Model
             $date_created = gmdate("M d, Y", $timestamp);
             $getNewsletters .= '<tr class="text-center">
             					<td>'.$row->id.'</td>
-            					<td>'.((!$this->config->item('demo')) ? $row->email : 'demo@coffeetheme.com').'</td>
+            					<td>'.((!$this->config->item('demo')) ? $row->email : 'demo@lindaikejitv.com').'</td>
             					<td>'.$isMember.'</td>
                                 <td>'.$status.'</td>
                                 <td>'.$row->ip.'</td>

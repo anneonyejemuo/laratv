@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-sm-12">
         				<div class="form-group">
-        					<label for="logo"><?php echo $this->lang->line('logo'); ?></label> <small>(<a href="http://www.coffeetheme.com/forums/topic/how-to-change-the-logo/" target="_blank"><?php echo $this->lang->line('How to change the logo ?'); ?></a>)</small>
+        					<label for="logo"><?php echo $this->lang->line('logo'); ?></label>
         					<input type="text" class="form-control" name="logo" value="<?php echo html_escape($this->config->item('logo')); ?>" placeholder="" />
         				</div>
                     </div>

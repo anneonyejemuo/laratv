@@ -15,7 +15,7 @@
                         <div class="form-group">
                             <?php if (!$this->config->item('paypalSerialNumber')) { ?>
                                 <a href="#" class="btn btn-inverse waves-effect waves-light toggle-action m-b-10" target="_blank">Enter a serial number</a>
-                                <a href="https://www.coffeetheme.com/order?edd_action=add_to_cart&amp;download_id=5796" class="btn btn-default waves-effect waves-light m-b-10" target="_blank">Get this extension</a>
+                                <a href="https://www.lindaikejitv.com/order?edd_action=add_to_cart&amp;download_id=5796" class="btn btn-default waves-effect waves-light m-b-10" target="_blank">Get this extension</a>
                             <?php } else { ?> 
                                 <a href="#" class="btn btn-default waves-effect waves-light m-b-10">Extension activated</a>
                                 <a href="#" class="btn btn-inverse waves-effect waves-light toggle-action m-b-10" target="_blank">Change</a>
@@ -42,7 +42,7 @@
                         <div class="form-group">
                             <?php if (!$this->config->item('paypalProSerialNumber')) { ?>
                                 <a href="#" class="btn btn-inverse waves-effect waves-light toggle-action m-b-10" target="_blank">Enter a serial number</a>
-                                <a href="https://www.coffeetheme.com/order?edd_action=add_to_cart&amp;download_id=5935" class="btn btn-default waves-effect waves-light m-b-10" target="_blank">Get this extension</a>
+                                <a href="https://www.lindaikejitv.com/order?edd_action=add_to_cart&amp;download_id=5935" class="btn btn-default waves-effect waves-light m-b-10" target="_blank">Get this extension</a>
                             <?php } else { ?> 
                                 <a href="#" class="btn btn-default waves-effect waves-light m-b-10">Extension activated</a>
                                 <a href="#" class="btn btn-inverse waves-effect waves-light toggle-action m-b-10" target="_blank">Change</a>

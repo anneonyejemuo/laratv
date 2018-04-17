@@ -57,28 +57,8 @@ if($this->config->item('maintenance')) { redirect('maintenance/index/'); } ?>
 </head>
 <body class="fixed-left front">
     <div id="wrapper">
-        <!-- Demo Bar -->
-        <?php if($this->config->item('demo') && !$this->session->demo_panel) { ?>
-            <div id="demo-panel">
-                <ul>
-                    <li class="theme-select">
-                        <a href="#">Select a theme<i class="fa fa-angle-down"></i></a>
-                        <ul>
-                            <li><a href="<?php echo site_url('Linkswitch/switchTheme/default/'); ?>">Default <span style="background:#82b340">Include</span></a></li>
-                            <li><a href="<?php echo site_url('Linkswitch/switchTheme/darktheme/'); ?>">Dark Theme <span style="background:#DE1212">Include</span></a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="links-panel">
-                    <li><a href="https://codecanyon.net/item/videoplay-video-subscription-platform/20656861?ref=coffeetheme">Buy now</a></li>
-                    <li><a href="<?php echo site_url('Linkswitch/switchPanel/'); ?>"><i class="fa fa-times"></i> Remove Frame</a></li>
-                    <li><a href="https://codecanyon.net/item/videoplay-video-subscription-platform/20656861?ref=coffeetheme"><i class="fa fa-shopping-cart"></i></a></li>
-                    <li><a href="<?php echo site_url('Linkswitch/switchPanel/'); ?>"><i class="fa fa-times"></i></a></li>
-                </ul>
-            </div>
-        <?php } ?>
 		<!-- Top Bar -->
-		<div class="topbar <?php echo ($this->config->item('demo') && !$this->session->demo_panel) ? 'with-demo-panel' : ''; ?>">
+		<div class="topbar">
 			<div class="navbar navbar-default <?php if(isset($hideMenu)) echo 'navbar-hide bg-transparent'; ?>" role="navigation">
 				<div class="container">
                     <!-- Button mobile view to collapse sidebar menu -->
@@ -177,7 +157,7 @@ if($this->config->item('maintenance')) { redirect('maintenance/index/'); } ?>
                             <?php if($this->config->item('socialIconsWidget')) { ?>
                                 <ul class="social-icons social-icons-widget">
     								<?php if($this->config->item('demo')) { ?>
-    		                            <li><a href="http://www.coffeetheme.com" class="coffee-color"><i class="fa fa-coffee"></i></a></li>
+    		                            <li><a href="http://www.lindaikejitv.com" class="coffee-color"><i class="fa fa-coffee"></i></a></li>
     								<?php } ?>
     								<?php if($this->config->item('facebook')) { ?>
                                         <li><a href="<?php echo $this->config->item('facebook'); ?>" class="facebook-color"><i class="fa fa-facebook"></i></a></li>
@@ -222,7 +202,7 @@ if($this->config->item('maintenance')) { redirect('maintenance/index/'); } ?>
                             <?php if($this->config->item('socialIconsFooter')) { ?>
                                 <ul class="social-icons pull-right">
                                     <?php if($this->config->item('demo')) { ?>
-                                    <li><a href="http://www.coffeetheme.com"><i class="fa fa-coffee"></i></a></li>
+                                    <li><a href="http://www.lindaikejitv.com"><i class="fa fa-coffee"></i></a></li>
                                     <?php } ?>
                                     <?php if($this->config->item('facebook')) { ?>
                                     <li><a href="<?php echo $this->config->item('facebook'); ?>"><i class="fa fa-facebook"></i></a></li>

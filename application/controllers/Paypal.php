@@ -62,7 +62,7 @@ class Paypal extends CI_Controller
 			'returnurl' => site_url('paypal/GetExpressCheckoutDetails'), 	// Required.  URL to which the customer will be returned after returning from PayPal.  2048 char max.
 			'cancelurl' => site_url('paypal/OrderCancelled'), 	// Required.  URL to which the customer will be returned if they cancel payment on PayPal's site.
 			'logoimg' => $this->config->item('paypalImage'), 	// A URL to your logo image.  Formats:  .gif, .jpg, .png.  190x60.  PayPal places your logo image at the top of the cart review area.  This logo needs to be stored on a https:// server.
-			'brandname' => 'Coffee Theme',	// A label that overrides the business name in the PayPal account on the PayPal hosted checkout pages.  127 char max.
+			'brandname' => 'Linda Ikeji Tv',	// A label that overrides the business name in the PayPal account on the PayPal hosted checkout pages.  127 char max.
 			'customerservicenumber' => '816-555-5555',	// Merchant Customer Service number displayed on the PayPal Review page. 16 char max.
 		);
 

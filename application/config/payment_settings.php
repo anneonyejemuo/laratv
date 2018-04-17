@@ -15,7 +15,7 @@ $config["planPrice"] = '29.99';
 $config["planCurrency"] = 'USD';
 $config["planTrial"] = '0';
 $config["planItemList"] = '<p>Suscribe 1 Month</p>
-<p>$29.99/montth</p>
+<p>‎₦1000/month</p>
 <p>No trial</p>';
 $config["planBtn"] = 'Subscribe!';
 $config["planActive"] = '1';
@@ -26,8 +26,8 @@ $config["plan2Price"] = '19.99';
 $config["plan2Currency"] = 'USD';
 $config["plan2Trial"] = '15';
 $config["plan2ItemList"] = '<p>Suscribe 6 Month</p>
-<p>$19.99/month</p>
-<p>5 Trial Days</p>';
+<p>‎₦10500/year</p>
+<p>NO trial</p>';
 $config["plan2Btn"] = 'Subscribe!';
 $config["plan2Active"] = '1';
 $config["plan2Focus"] = '1';

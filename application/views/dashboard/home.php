@@ -3,7 +3,7 @@
     <?php if(!$this->input->cookie('notification') && $this->config->item('hidePromo') !== '1' && !$this->config->item('demo')) { ?>
         <div class="alert alert-warning alert-dismissable">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-            <i class="fa fa-lightbulb-o"></i><div class="p-l-20"><a href="http://www.coffeetheme.com/forums/topic/rate-and-get-free-products/" target="_blank">Get a free copy of our Arcade Games Platform</a> !</div>
+            <i class="fa fa-lightbulb-o"></i><div class="p-l-20"><a href="http://www.lindaikejitv.com/forums/topic/rate-and-get-free-products/" target="_blank">Get a free copy of our Arcade Games Platform</a> !</div>
         </div>
     <?php } ?>
     <div class="card-box widget-inline">

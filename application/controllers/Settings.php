@@ -1,19 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
-* Coffee Theme
-*
-* PHP version >= 7.0.0
-*
-* @category  PHP
-* @package   VideoTube - PHP Script
-* @author    Nicolas Grimonpont <support@coffeetheme.com>
-* @copyright 2010-2018 Nicolas Grimonpont
-* @license   Standard License
-* @link      http://coffeetheme.com/
-*/
-
 class Settings extends CI_Controller
 {
     public function __construct()
@@ -539,7 +526,7 @@ class Settings extends CI_Controller
         if (isset($serialNumber) && !$this->config->item('demo')) {
             $itemIds = array('5896', '5871', '5796', '5939', '5937', '5935');
             foreach ($itemIds as $itemId) {
-                $json = json_decode(file_get_contents('https://www.coffeetheme.com?edd_action=activate_license&item_id='.$itemId.'&license='.$serialNumber.'&url='.site_url()));
+                $json = json_decode(file_get_contents('https://www.lindaikejitv.com?edd_action=activate_license&item_id='.$itemId.'&license='.$serialNumber.'&url='.site_url()));
                 if ($json->success === true) {
                     $file = '<'.'?php'."\n";
                     $file .= 'defined("BASEPATH") OR exit("No direct script access allowed");'."\n";

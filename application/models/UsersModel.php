@@ -21,7 +21,7 @@ class UsersModel extends CI_Model
              '<tr class="text-center">
 					<td>'.$row->id.'</td>
 					<td>'.$row->username.'</td>
-					<td>'.((!$this->config->item('demo')) ? $row->email : 'demo@coffeetheme.com').'</td>
+					<td>'.((!$this->config->item('demo')) ? $row->email : 'demo@lindaikejitv.com').'</td>
 					<td>'.$role.'</td>
 					<td>'.$status.'</td>
 					<td>'.$date_created.'</td>
@@ -47,7 +47,7 @@ class UsersModel extends CI_Model
             $date_modified = gmdate("M d, Y", $timestamp);
             return array(
                 'username'      => $result->username,
-                'email'         => (!$this->config->item('demo')) ? $result->email : 'demo@coffeetheme.com',
+                'email'         => (!$this->config->item('demo')) ? $result->email : 'demo@lindaikejitv.com',
                 'role'          => $result->role,
                 'status'        => $result->status,
                 'name_image'    => $result->image,

@@ -12,7 +12,7 @@
                             <div class="col-sm-12">
                                 <div class="form-group m-b-20">
                                     <label for="email"><?php echo $this->lang->line('Email'); ?></label>
-                                    <input type="text" class="form-control" name="email" value="<?php if(isset($getNewsletter->email)) echo (!$this->config->item('demo')) ? $getNewsletter->email : 'demo@coffeetheme.com'; ?>">
+                                    <input type="text" class="form-control" name="email" value="<?php if(isset($getNewsletter->email)) echo (!$this->config->item('demo')) ? $getNewsletter->email : 'demo@lindaikejitv.com'; ?>">
                                 </div>
                             </div>
                         </div>

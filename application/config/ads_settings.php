@@ -15,5 +15,5 @@ $config["sidebarcontent"] = '';
 $config["videoads"] = 'http://www.videoplay.dev/uploads/files/videos/19573835.mp4';
 $config["videoadsactive"] = '0';
 $config["adsduration"] = '5';
-$config["adslink"] = 'https://www.coffeetheme.com';
+$config["adslink"] = 'https://www.lindaikejitv.com';
 ?>

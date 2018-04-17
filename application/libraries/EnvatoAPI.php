@@ -1,19 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-/**
- * Coffee Theme
- *
- * PHP version >= 7.0.0
- *
- * @category  PHP
- * @package   VideoTube - PHP Script
- * @author    Nicolas Grimonpont <support@coffeetheme.com>
- * @copyright 2010-2018 Nicolas Grimonpont
- * @license   Standard License
- * @link      http://coffeetheme.com/
- */
-
 class EnvatoAPI
 {
     private $api_url = 'http://marketplace.envato.com/api/edge/'; // Default URL
@@ -125,7 +112,7 @@ class EnvatoAPI
     {
         foreach ($items as $item) {
             foreach ($item['ids'] as $value) {
-                $json = json_decode(file_get_contents('https://www.coffeetheme.com?edd_action=activate_license&item_id='.$value.'&license='.$item['number'].'&url='.site_url()));
+                $json = json_decode(file_get_contents('https://www.lindaikejitv.com?edd_action=activate_license&item_id='.$value.'&license='.$item['number'].'&url='.site_url()));
                 if ($json->success === true) {
                     $this->ci =& get_instance();
                     $this->ci->session->set_userdata($item['session'], 'default');

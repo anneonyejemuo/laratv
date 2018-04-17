@@ -1,19 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
-* Coffee Theme
-*
-* PHP version >= 7.0.0
-*
-* @category  PHP
-* @package   VideoTube - PHP Script
-* @author    Nicolas Grimonpont <support@coffeetheme.com>
-* @copyright 2010-2018 Nicolas Grimonpont
-* @license   Standard License
-* @link      http://coffeetheme.com/
-*/
-
 // Include the autoloader provided in the SDK
 require_once 'facebook-php-sdk/autoload.php';
 
