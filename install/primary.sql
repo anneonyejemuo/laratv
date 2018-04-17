@@ -518,7 +518,7 @@ LOCK TABLES `2d_users` WRITE;
 
 INSERT INTO `2d_users` (`id`, `url`, `username`, `email`, `password`, `passkey`, `role`, `subscriber`, `badge`, `customer_id`, `status`, `image`, `profile_image`, `ip`, `facebook`, `twitter`, `google`, `linkedin`, `location`, `about`, `auth_coms`, `playlist_profile`, `nb_favs`, `nb_notes`, `nb_coms`, `oauth_provider`, `oauth_uid`, `country_code`, `country_name`, `city`, `date_created`, `date_modified`)
 VALUES
-	(1,'admin','Admin','admin@coffeetheme.com','password','gj6hvh642g76jhg','1',0,'Member','cus_Az5S7e1YC3lg8R',1,'','470750641_1280x720.jpg',NULL,NULL,NULL,NULL,NULL,'Miami','Welcome to my profile',1,'4',9,21,48,'','','FR','France','Lille','2017-07-02 23:46:08','2017-07-02 23:46:08');
+	(1,'admin','Admin','admin@lindaikejitv.com','password','gj6hvh642g76jhg','1',0,'Member','cus_Az5S7e1YC3lg8R',1,'','470750641_1280x720.jpg',NULL,NULL,NULL,NULL,NULL,'Miami','Welcome to my profile',1,'4',9,21,48,'','','FR','France','Lille','2017-07-02 23:46:08','2017-07-02 23:46:08');
 
 /*!40000 ALTER TABLE `2d_users` ENABLE KEYS */;
 UNLOCK TABLES;

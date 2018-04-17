@@ -1,18 +1,4 @@
 <?php
-// *************************************************************************
-// *                                                                       *
-// * Copyright (c) Nicolas Grimonpont. All Rights Reserved                 *
-// * Email: support@coffeetheme.com                                        *
-// *                                                                       *
-// * Website: http://www.coffeetheme.com                                   *
-// *                                                                       *
-// * This software is furnished under a license and may be used and copied *
-// * only in accordance with the terms of such license and with the        *
-// * inclusion of the above copyright notice.                              *
-// * If you Purchased from Codecanyon, Please read the full License from   *
-// * here- http://codecanyon.net/licenses/standard                         *
-// *                                                                       *
-// *************************************************************************
 @ini_set('memory_limit', '512M');
 @ini_set('max_execution_time', 0);
 @set_time_limit(0);
@@ -90,7 +76,7 @@ if($dbc){
 						if($dbc){
 						?>
 							<p>Now you can log in to your website using these credentials and<br>then change the default password for the account :<br><br>
-							- admin@coffeetheme.com<br>
+							- admin@lindaikejitv.com<br>
 							- password
 							</p>
 							<p class="text-danger">For security reasons, you must remove the installation directory from your server.</p>
