@@ -124,8 +124,8 @@ function($) {
 
     var App = function() {
         this.VERSION = "1.0.0",
-        this.AUTHOR = "Coffee Theme",
-        this.SUPPORT = "support@coffeetheme",
+        this.AUTHOR = "Linda Ikeji tv",
+        this.SUPPORT = "support@lindaikejitv.com",
         this.pageScrollElement = "html, body",
         this.$body = $("body"),
         this.$topNavbar = $("#navbar-menu"),
